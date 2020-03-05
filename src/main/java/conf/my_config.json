@@ -1,0 +1,23 @@
+{
+  "http.port": 1234,
+
+  "mongo.meta.uri": "mongodb://...",
+  "mongo.sdk.uri": "mongodb://...",
+  "es.conversion.uri": "es://...",
+  "es.clicks.uri": "es://...",
+  "es.payment.uri": "es://...",
+
+  "instance.http.handle" : 5,
+  "instance.business.handle" : 5,
+  "instance.mongo.sdk" : 5,
+  "instance.mongo.meta" : 5,
+  "instance.es.click" : 5,
+  "instance.es.conversion" : 5,
+  "instance.es.payment" : 5,
+
+  "run.worker.minute" : 1,
+
+  "locate.auth.config" : "..users.properties",
+
+  "config.cors.domain" : "http://localhost.com"
+}
